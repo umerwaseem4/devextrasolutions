@@ -9,6 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["'Poppins'", "sans-serif"],
+    },
+    backgroundImage: {
+      "pack-train":
+        "url('https://tailwindcomponents.com/gradient-generator/assets/header.a6837f08.webp')",
+    },
     extend: {},
   },
   plugins: [],

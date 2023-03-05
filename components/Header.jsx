@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const Header = () => {
   return (
     <>
@@ -18,11 +20,8 @@ const Header = () => {
             <a className="mr-7 hover:text-[#6f42c1] transition-all cursor-pointer">Blogs</a>
             <a className="mr-7 hover:text-[#6f42c1] transition-all cursor-pointer">About Us</a>
             <a className="mr-7 hover:text-[#6f42c1] transition-all cursor-pointer">Careers</a>
-
           </nav>
-          <button className="inline-flex items-center text-white bg-[#710e8b] border-0 py-1 px-3 focus:outline-none hover:bg-[#0d6efd] rounded text-base mt-4 md:mt-0 font-bold-[600] pb-3 pt-3 pr-8 pl-8">
-            Login
-          </button>
+          <Button>Login</Button>
         </div>
       </header>
     </>
